@@ -1,0 +1,42 @@
+/* Стили для контейнера, чтобы центрировать карточку */
+body {
+	height: 100vh;
+	margin: 0;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(212, 45%, 89%); /* Цвет фона страницы */
+}
+
+/* Стили для карточки */
+.card {
+	font-family: Outfit, sans-serif; /*шрифт для содержимого карточки*/
+	background-color: hsl(0, 0%, 100%);/*фон для карточки*/
+	border-radius: 15px;/*закругление углов карточки*/
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);/*тень карточки*/
+	width: 270px;/*ширина карточки*/
+	padding: 15px;/*внутренние отступы от границ карточки*/
+	text-align: center;/*выравнивание текста в карточке*/
+}
+
+/* Стили для изображения */
+.qr-code {
+	width: 100%;/*qr код займет 100% свободной ширины карточки минус padding карточки*/
+	border-radius: 10px;/*закругление углов qr-code*/
+}
+
+/* Стили для заголовка */
+.title {
+	font-size: 19px;
+	font-weight: 700;
+	color: #333;
+	margin: 16px 0 10px 0;
+}
+
+/* Стили для описания */
+.description {
+	font-size: 14px;
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+	margin-bottom: 15px;
+}
